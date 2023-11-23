@@ -20,30 +20,26 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
+        page_title="Submission",  
     )
 
-    st.write("# Welcome to My Submission! 👋")
-
+    st.write("# Selamat Datang di Dashboard Proyek Analisis Data saya!")
     st.sidebar.success("Select a city above.")
-
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
-        ### Want to learn more?
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
-    """
+        Perkenalkan saya Shelwan Riaudy U. Proyek yang saya buat ini digunakan sebagai Submission Kelas Belajar Analisis Data dengan Python Dicoding.
+        Pada proyek ini dataset yang digunakan adalah Dataset yang digunakan pada penelitian ini adalah Air Quality Sumber
+        """
+    )
+    st.write(
+        """
+        ## Dataset Air Quality
+        Dataset ini terdiri dari 11 station dengan 18 variabel.
+        
+        Dataset memiliki informasi kualitas udara dari 11 station dalam rentan waktu 2013 hingga 2017. Informasi kualitas udara
+        pada dataset diataranya Bulan, Tahun, Hari, Jam, Data Polutan PM2.5,PM10,SO2,NO2,CO,O3,TEMP,PRES,DEWP,RAIN,wd,WSPM.
+
+        """
     )
 
 
