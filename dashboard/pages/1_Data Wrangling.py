@@ -17,19 +17,7 @@ Nongzhanguan = pd.read_csv("PRSA_Data_Nongzhanguan_20130301-20170228.csv")
 Shunyi = pd.read_csv("PRSA_Data_Shunyi_20130301-20170228.csv")
 Tiantan = pd.read_csv("PRSA_Data_Tiantan_20130301-20170228.csv")
 Wanliu = pd.read_csv("PRSA_Data_Wanliu_20130301-20170228.csv")
-Wanshouxigong = pd.read_csv("PRSA_Data_Wanshouxigong_20130301-20170228.csv")	
-# Aotizhongxin  
-# Changping  
-# Dingling  
-# Dongsi 
-# Guanyuan 
-# Gucheng  
-# Nongzhanguan  
-# Shunyi 
-# Tiantan  
-# Wanliu 
-# Wanshouxigong 
-
+Wanshouxigong = pd.read_csv("PRSgiA_Data_Wanshouxigong_20130301-20170228.csv")	
 def Aotizhongxin_(): 
     st.title("Assessing Data")
     buffer = io.StringIO()
